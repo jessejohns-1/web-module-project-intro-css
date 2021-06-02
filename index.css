@@ -1,0 +1,214 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+        max-width: 100%;
+        /* border:1px solid grey; */
+    }
+
+
+    /* General Styles */
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        color:#4F4F4F; /*easier to read then back on white*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size:7rem;
+    }
+    h2{
+        font-family: 'Roboto Mono', cursive;
+        font-size:2.2rem;
+    }
+    .second{
+        font-family: 'Roboto Mono', cursive;
+        font-size:2.4rem;
+    }
+    section{
+        padding: 4% 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* header section styles */
+    nav{
+        padding:2% 0;
+        /* border-style */
+        padding:2% 0;
+    }
+    nav a{
+        display:inline-block;
+        padding:1% 0;
+        width:10%;
+        border-radius:10px;
+        text-align:center;
+        color:#fff;
+
+
+        
+    }
+    .orange{
+        background-color:#FF764E;
+        margin-left: 10%;
+    }
+    .blue{
+        background-color:#5ED3EB;
+        margin: 0 24%
+    }
+    .yellow{
+        background-color:#FFCD69;
+        margin-right: 10%;
+    }
+
+    /* top section styles */
+    .top{
+        /* text-align: center; */
+        position:relative;
+    }
+    .left img{
+        border-radius: 50%;
+        width:70%
+    }
+    .left, .right{
+        display:inline-block;
+    }
+    .left{
+        width:40%;
+        text-align: center;
+    }
+    .right{
+        width:45%;
+        margin-left:3%;
+        position:absolute;
+        top:40%;
+        text-align:center;
+    }
+    .right div{
+        width:45%;
+        margin-left:3%;
+        position:absolute;
+        top:40%;
+        text-align: center;
+    }
+    
+    .maintextbody{
+     background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    margin: 1% 6%;
+    padding: 1%;
+    font-size:3rem;
+    
+        
+    }
+    span {
+        font-weight: bold;
+    }
+.maintextbody p{
+        margin: -1% 0;
+    
+}
+    .fire {
+       width:200px;
+       display: block;
+       margin-top:1%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -3%;
+       
+        
+    }
+    .firetext{
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        width:350px;
+       display: block;
+       margin-top:1%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -3%;
+        /* width: 15.7%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto; */
+       
+    }
+    .van {
+        width:200px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -3%;
+    }
+    .vantext {
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        width:350px;
+       display: block;
+       margin-top:1%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -3%;
+    }
+    .right{
+        font-weight:100
+    }
+    /*background image selection  */
+    .heroImg{
+        height:50vh;
+        background-image:url('assets/footer_img.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:top;
+
+
+    }
+    .footnav{
+        padding-top:1%;
+        background-color: #F9E7DC;
+    }
